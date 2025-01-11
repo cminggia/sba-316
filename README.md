@@ -1,10 +1,18 @@
 # sba-316 
-I did leave alot of notes in javaScipt as i was following along
- I wasnt not able to finish it 
- the click button dosnt respond
- to the stars i had in mind to show up after making a wish.
+Calender App"
+ I created a small calender with real time
+ the thought process was ... I really love using calender in real life and i'm sure this be useful in work place
 
- and i know i'm missing some element that required of this project.
+HTML
+ So first i made sure i had my foundation and my thought process of what i wanted to create which was the calender in html i wanted to add the month,day,year and put that all into a container(calender conatain)
+
+ CSS
+ So this process was to form it what i envisioned far as the style. The background and how i wanted it to be in its own container block. and i played with the colors,font,sizing also
+
+ JS
+
+ I started console logging everything  by elementID. then i wanted it to generate the current time,date,month,year
+ with saving the data along the way. 
 
 
- train of though for this project is to create a wishing well but in instead a (wishing web) in dark space of the internet but for the good!
+  

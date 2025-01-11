@@ -1,86 +1,45 @@
-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  pointer-events: none;
-}
-
-body {
-  width: 100%;
-  height: 100vh;
-  background-color: #080006;
-  background-image: radial-gradient(circle at top right, rgba(121, 68, 154, 0.13), transparent),
-                    radial-gradient(circle at 20% 80%, rgba(41, 196, 255, 0.13), transparent);
+body{
   margin: 0;
-  font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
+  height: 100vh;
   align-items: center;
-}
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: blueviolet;
+  display:flex;
+  
+  
+   }
 
-
-a {
-  position: absolute;
-  bottom: 2vmin;
-  right: 2vmin;
-  color: rgba(255, 255, 255, 0.2);
-  text-decoration: none;
-}
-
-a:hover {
-  color: #e0d7dc;
-}
-
-.wishing-well {
-  background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
-  padding: 20px;
+.Calender-container{
+  border: #000;
+ background-color: rgb(255, 255, 255);
+  width: 300;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  width: 90%;
-  max-width: 400px; /
-}
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(246, 246, 246, 0,3);
+  overflow: hidden;
+  font-weight: bold;
+ }
 
-#wish-input {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: white;
-  font-size: 16px;
+.month-name{
+  margin: 0;
+  background-color: rgb(199, 25, 234);
+  color: #000;
+  padding: 12px;
+  font-size: 32px;
 }
-
-#submit-button {
-  padding: 10px 20px;
-  background-color: #6c63ff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
+.day-name{
+  font-size: 20px;
+  color: rgb(16, 16, 16);
+} 
+.day-number{
+  font-size: 80px;
+  margin:0;
+  color: rgb(108, 14, 156);
 }
-
-#submit-button:hover {
-  background-color: #574bcc;
-}
-
-#wishes-container {
-  margin-top: 20px;
-  text-align: left;
-  color: white;
-}
-
-.wish-item {
-  background-color: rgba(255, 255, 255, 0.2);
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 5px;
+.year{
+  margin:20px
+  font: size 20px;
+  font-weight:900
 }
